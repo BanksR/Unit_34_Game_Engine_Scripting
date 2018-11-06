@@ -29,10 +29,12 @@ public class SpinTrap : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             ParticleManager.Instance.KillPlayer(collision.transform);
+            
             //AudioManager.Instance.PlayerDeath(deathSound);
 
-            //GameManager.Instance.StartCoroutine("TimeOver");
+            
 
+            GES_GameManager.instance.ReloadThisLevel();
             collision.gameObject.SetActive(false);
 
             //Start respawn coroutine on the GameManager

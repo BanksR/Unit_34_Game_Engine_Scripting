@@ -71,8 +71,7 @@ public class PlayerController : MonoBehaviour
 
 
 
-		if(GameManager.Instance.canControl)
-            Move(vel);
+		Move(vel);
     }
 
 
@@ -97,7 +96,7 @@ public class PlayerController : MonoBehaviour
     private void FlipMode()
     {
         facingRight = !facingRight;
-        Vector3 flipScale = new Vector2(transform.localScale.x * -1, 2);
+        Vector3 flipScale = new Vector2(transform.localScale.x * -1, 1);
         transform.localScale = flipScale;
         
     }
@@ -105,15 +104,14 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
 
-        if(GameManager.Instance.canControl)
-        {
+        
 			rbd.velocity = new Vector2(rbd.velocity.x, 0f);
 			rbd.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             //Play mump anim
             anims.SetTrigger("Jump");
 			//AudioManager.Instance.JumpNoise(playerJump);
 
-        }
+        
 
     }
 

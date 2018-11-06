@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.Serialization.Formatters;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -28,6 +29,13 @@ public class GES_GameManager : MonoBehaviour
     }
 
 
+    public void ReloadThisLevel()
+    {
+        SceneManager.LoadScene(currentScene);
+    }
+
+
+    // This function can be called from any script to laod the next scene/level
     public void LoadNextLevel()
     {
         currentScene++;
@@ -36,6 +44,7 @@ public class GES_GameManager : MonoBehaviour
         //Debug.Log(inGame);
     }
 
+    // This function can be called from any script to load the main menu
     public void LoadMainMenu()
     {
         inGame = false;
@@ -46,16 +55,21 @@ public class GES_GameManager : MonoBehaviour
     {
 
         //This will check every frame to see how many pickup objects are in the scene
-        if(PowerUpBlock.pickUpCount == 0 && SceneManager.GetActiveScene().name != "MainMenu")
+        if (PowerUpBlock.pickUpCount == 0 && SceneManager.GetActiveScene().name != "MainMenu")
         {
             LoadNextLevel();
         }
 
 
         //Escape the game - back to MainMenu
-        if(Input.GetKey(KeyCode.Escape))
+        if (Input.GetKey(KeyCode.Escape))
         {
             LoadMainMenu();
+        }
+
+        if (!inGame && SceneManager.GetActiveScene().name == "MainMenu" && Input.anyKey)
+        {
+            SceneManager.LoadScene(1);
         }
     }
 }
