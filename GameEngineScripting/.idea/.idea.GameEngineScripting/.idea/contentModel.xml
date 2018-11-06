@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets/AnimateAnythingPlayerController.cs" t="Include" />
+      <e p="Assets/Bouncer.cs" t="Include" />
+      <e p="Assets/Jump.cs" t="Include" />
+      <e p="Assets/Scripts" t="Include">
+        <e p="AnotherHelloWorld.cs" t="Include" />
+        <e p="AudioManager.cs" t="Include" />
+        <e p="BallCollisions.cs" t="Include" />
+        <e p="BallController.cs" t="Include" />
+        <e p="CamFollow.cs" t="Include" />
+        <e p="CamShake.cs" t="Include" />
+        <e p="CollisionScript.cs" t="Include" />
+        <e p="ColorChangingScript.cs" t="Include" />
+        <e p="ComponentHelloWorld.cs" t="Include" />
+        <e p="Dialog.cs" t="Include" />
+        <e p="DisplayLives.cs" t="Include" />
+        <e p="Door.cs" t="Include" />
+        <e p="DoorConfig.cs" t="Include" />
+        <e p="ForLoops.cs" t="Include" />
+        <e p="GameManager.cs" t="Include" />
+        <e p="GES_GameManager.cs" t="Include" />
+        <e p="HelloWorld.cs" t="Include" />
+        <e p="HelloWorld_2018.cs" t="Include" />
+        <e p="Increment.cs" t="Include" />
+        <e p="Inheritance" t="Include">
+          <e p="Animal.cs" t="Include" />
+          <e p="Cat.cs" t="Include" />
+          <e p="Chicken.cs" t="Include" />
+          <e p="Cow.cs" t="Include" />
+          <e p="Dog.cs" t="Include" />
+        </e>
+        <e p="Key.cs" t="Include" />
+        <e p="Loops.cs" t="Include" />
+        <e p="New2DController.cs" t="Include" />
+        <e p="NPC.cs" t="Include" />
+        <e p="PickUp.cs" t="Include" />
+        <e p="PlayerAudio.cs" t="Include" />
+        <e p="PlayerController.cs" t="Include" />
+        <e p="PlayerInput.cs" t="Include" />
+        <e p="PlayerInventory.cs" t="Include" />
+        <e p="PlayerMovement.cs" t="Include" />
+        <e p="PowerUpBlock.cs" t="Include" />
+        <e p="RBDTests.cs" t="Include" />
+        <e p="SpinTrap.cs" t="Include" />
+        <e p="Ticker.cs" t="Include" />
+        <e p="TransformClassTests.cs" t="Include" />
+        <e p="Weapons" t="Include">
+          <e p="AK74.cs" t="Include" />
+          <e p="Mp5.cs" t="Include" />
+          <e p="RPG.cs" t="Include" />
+          <e p="Shotgun.cs" t="Include" />
+          <e p="Weapon.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Assets/Sprites" t="Include">
+        <e p="ParticleManager.cs" t="Include" />
+      </e>
+      <e p="Assets/TrafficLightSystem.cs" t="Include" />
+      <e p="Assets/WeaponSelecter.cs" t="Include" />
+      <e p="Assets/WillICompile.cs" t="Include" />
+      <e p="GameEngineScripting.sln" t="IncludeFlat" />
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2018.1/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_GameEngineScripting.-625447534.00" t="ExcludeRecursive" />
+  </component>
+</project>

@@ -1,0 +1,61 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+
+public class GES_GameManager : MonoBehaviour 
+{
+
+    private int currentScene;
+    private int numScenes;
+    private bool inGame = false;
+
+
+    //This line creates a static version of this class called instance
+    //To access this class and its Functions and Variables we would use
+    // the . operator - GES_Manager.Instance.StaticTestFunction();
+    public static GES_GameManager instance;
+
+    private void Awake()
+    {
+        //This assigns the variable instance to 'this' instance of the class.
+        //We could do additional tests here to make sure there is only ever one instance of this
+        //Class in our scene as an additional bug prevention measure
+        //DontDestroyOnLoad(this);
+        instance = this;
+        currentScene = SceneManager.GetActiveScene().buildIndex;
+        //Debug.Log(currentScene + SceneManager.GetActiveScene().name.ToString());
+    }
+
+
+    public void LoadNextLevel()
+    {
+        currentScene++;
+        SceneManager.LoadScene(currentScene % SceneManager.sceneCountInBuildSettings);
+        inGame = true;
+        //Debug.Log(inGame);
+    }
+
+    public void LoadMainMenu()
+    {
+        inGame = false;
+        SceneManager.LoadScene("MainMenu");   
+    }
+
+    private void Update()
+    {
+
+        //This will check every frame to see how many pickup objects are in the scene
+        if(PowerUpBlock.pickUpCount == 0 && SceneManager.GetActiveScene().name != "MainMenu")
+        {
+            LoadNextLevel();
+        }
+
+
+        //Escape the game - back to MainMenu
+        if(Input.GetKey(KeyCode.Escape))
+        {
+            LoadMainMenu();
+        }
+    }
+}

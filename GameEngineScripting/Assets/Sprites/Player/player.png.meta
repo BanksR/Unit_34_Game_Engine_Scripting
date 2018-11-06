@@ -1,0 +1,211 @@
+fileFormatVersion: 2
+guid: 698cf21b1a23846d2859104868dc2e1a
+timeCreated: 1505478269
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Head
+    21300002: Torso
+    21300004: NearLeg
+    21300006: FarLeg
+    21300008: NearArm
+    21300010: FarArm
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 0
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Head
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 25
+        width: 21
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4704413, y: 0.05131829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Torso
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 29
+        width: 15
+        height: 19
+      alignment: 9
+      pivot: {x: 0.494827, y: 0.29989544}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NearLeg
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 10
+        width: 7
+        height: 12
+      alignment: 9
+      pivot: {x: 0.28939438, y: 0.9138217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FarLeg
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 2
+        width: 7
+        height: 12
+      alignment: 9
+      pivot: {x: 0.27830967, y: 0.8944237}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: NearArm
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 8
+        width: 6
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6810468, y: 0.882785}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: FarArm
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 10
+        width: 6
+        height: 15
+      alignment: 9
+      pivot: {x: 0.6810468, y: 0.8776122}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline:
+    - - {x: -4.29443, y: 22.850853}
+      - {x: -10.945705, y: 24.159664}
+      - {x: -17.854584, y: 21.975597}
+      - {x: -21.492863, y: 16.232155}
+      - {x: -21.41786, y: 5.4236507}
+      - {x: -15.9143305, y: 1.2954941}
+      - {x: -6.2236977, y: -0.7933006}
+      - {x: -1.3858128, y: -0.40535164}
+      - {x: 1.3385658, y: 7.050171}
+      - {x: -0.15259361, y: 19.933285}
+    - - {x: 21.298882, y: 3.3364353}
+      - {x: 5.7159443, y: 3.3324032}
+      - {x: 5.702976, y: 24.301678}
+      - {x: 14.082867, y: 21.260086}
+      - {x: 21.60925, y: 18.699566}
+    - - {x: -19.51428, y: -16.21664}
+      - {x: -19.51428, y: -2.3277493}
+      - {x: -14.238052, y: -2.560524}
+      - {x: -11.59994, y: -15.518316}
+    - - {x: 1.5906258, y: -17.69088}
+      - {x: 1.6682167, y: -1.7846107}
+      - {x: 8.496277, y: -1.629427}
+      - {x: 8.341091, y: -17.535696}
+    - - {x: 14.781193, y: -15.673499}
+      - {x: 17.031345, y: 0.46554565}
+      - {x: 22.540348, y: 0.3879547}
+      - {x: 23.859406, y: -15.673499}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
