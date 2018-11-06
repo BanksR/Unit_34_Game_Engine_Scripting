@@ -11,20 +11,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnotherHelloWorld.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/AnotherHelloWorld.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <marker date="1538387053959" expanded="false" signature="6:125" ph="..." />
-                <marker date="1538387053959" expanded="true" signature="174:370" ph="{...}" />
-                <marker date="1538387053959" expanded="true" signature="246:366" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="PickUp.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PickUp.cs">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,33 +43,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GES_GameManager.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GES_GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GES_GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="355">
-              <caret line="57" column="186" selection-start-line="57" selection-start-column="186" selection-end-line="57" selection-end-column="186" />
+            <state relative-caret-position="322">
+              <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
               <folding>
-                <marker date="1541501508993" expanded="true" signature="6:160" ph="..." />
-                <marker date="1541501508993" expanded="true" signature="207:2267" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="307:512" ph="/* This line creates a static version of this class called instance ... */" />
-                <marker date="1541501508993" expanded="true" signature="582:1046" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="597:867" ph="/* This assigns the variable instance to 'this' instance of the class. ... */" />
-                <marker date="1541501508993" expanded="true" signature="1082:1140" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="1254:1429" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="1534:1617" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="1644:2265" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="1924:1973" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="2062:2110" ph="{...}" />
-                <marker date="1541501508993" expanded="true" signature="2200:2259" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="6:160" ph="..." />
+                <marker date="1541504738090" expanded="true" signature="207:2184" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="307:512" ph="/* This line creates a static version of this class called instance ... */" />
+                <marker date="1541504738090" expanded="true" signature="582:1046" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="597:867" ph="/* This assigns the variable instance to 'this' instance of the class. ... */" />
+                <marker date="1541504738090" expanded="true" signature="1082:1149" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="1263:1438" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="1543:1626" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="1653:2182" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="1841:1890" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="1979:2027" ph="{...}" />
+                <marker date="1541504738090" expanded="true" signature="2117:2176" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="WordOne.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../Random Name Picker/Assets/WordOne.cs">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file leaf-file-name="PlayerController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
+            <state relative-caret-position="463">
               <caret line="98" column="70" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
               <folding>
                 <marker date="1541500136059" expanded="false" signature="6:78" ph="..." />
@@ -115,7 +106,7 @@
       <file leaf-file-name="GameManager.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1064">
+            <state relative-caret-position="-1475">
               <folding>
                 <marker date="1505748523000" expanded="false" signature="6:135" ph="..." />
                 <marker date="1505748523000" expanded="true" signature="178:2888" ph="{...}" />
@@ -221,12 +212,13 @@
     </leaf>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUp.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PickUp.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnotherHelloWorld.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Sprites/ParticleManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Loops.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBlock.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TrafficLightSystem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/../../Random Name Picker/Assets/WordOne.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/23/32d64d05/Debug.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GES_GameManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -247,6 +239,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/PickUp.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SpinTrap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/PowerUpBlock.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GES_GameManager.cs" />
       </list>
     </option>
@@ -334,12 +327,12 @@
       <workItem from="1540891646865" duration="1119000" />
       <workItem from="1540994225726" duration="2153000" />
       <workItem from="1541063607801" duration="1177000" />
-      <workItem from="1541496572665" duration="2580000" />
+      <workItem from="1541496572665" duration="3757000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18094000" />
+    <option name="totallyTimeSpent" value="19271000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -352,7 +345,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-15" y="28" width="1449" height="837" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
@@ -387,7 +379,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Jump.cs" />
     <entry file="file://$PROJECT_DIR$/../Random Name Picker/Assets/WordOne.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/HelloWorld_2018.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -809,20 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBlock.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
-          <folding>
-            <marker date="1510659722662" expanded="false" signature="6:78" ph="..." />
-            <marker date="1510659722662" expanded="true" signature="122:589" ph="{...}" />
-            <marker date="1510659722662" expanded="true" signature="256:292" ph="{...}" />
-            <marker date="1510659722662" expanded="true" signature="348:587" ph="{...}" />
-            <marker date="1510659722662" expanded="true" signature="397:581" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/TrafficLightSystem.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -835,28 +812,6 @@
             <marker date="1512653161809" expanded="true" signature="382:449" ph="{...}" />
             <marker date="1512653161809" expanded="true" signature="511:637" ph="{...}" />
             <marker date="1512653161809" expanded="true" signature="571:631" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1064">
-          <folding>
-            <marker date="1505748523000" expanded="false" signature="6:135" ph="..." />
-            <marker date="1505748523000" expanded="true" signature="178:2888" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="902:1234" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1255:1302" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1341:1649" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1417:1507" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1541:1633" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1686:1940" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="1975:2190" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="2238:2312" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="2347:2431" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="2464:2558" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="2606:2884" ph="{...}" />
-            <marker date="1505748523000" expanded="true" signature="2788:2878" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -921,7 +876,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
+        <state relative-caret-position="463">
           <caret line="98" column="70" selection-start-line="98" selection-start-column="70" selection-end-line="98" selection-end-column="70" />
           <folding>
             <marker date="1541500136059" expanded="false" signature="6:78" ph="..." />
@@ -949,26 +904,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GES_GameManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="57" column="186" selection-start-line="57" selection-start-column="186" selection-end-line="57" selection-end-column="186" />
+        <state relative-caret-position="-1475">
           <folding>
-            <marker date="1541501508993" expanded="true" signature="6:160" ph="..." />
-            <marker date="1541501508993" expanded="true" signature="207:2267" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="307:512" ph="/* This line creates a static version of this class called instance ... */" />
-            <marker date="1541501508993" expanded="true" signature="582:1046" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="597:867" ph="/* This assigns the variable instance to 'this' instance of the class. ... */" />
-            <marker date="1541501508993" expanded="true" signature="1082:1140" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="1254:1429" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="1534:1617" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="1644:2265" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="1924:1973" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="2062:2110" ph="{...}" />
-            <marker date="1541501508993" expanded="true" signature="2200:2259" ph="{...}" />
+            <marker date="1505748523000" expanded="false" signature="6:135" ph="..." />
+            <marker date="1505748523000" expanded="true" signature="178:2888" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="902:1234" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1255:1302" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1341:1649" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1417:1507" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1541:1633" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1686:1940" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="1975:2190" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="2238:2312" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="2347:2431" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="2464:2558" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="2606:2884" ph="{...}" />
+            <marker date="1505748523000" expanded="true" signature="2788:2878" ph="{...}" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PowerUpBlock.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+          <folding>
+            <marker date="1510659722662" expanded="false" signature="6:78" ph="..." />
+            <marker date="1510659722662" expanded="true" signature="122:589" ph="{...}" />
+            <marker date="1510659722662" expanded="true" signature="256:292" ph="{...}" />
+            <marker date="1510659722662" expanded="true" signature="348:587" ph="{...}" />
+            <marker date="1510659722662" expanded="true" signature="397:581" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/GES_GameManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+          <folding>
+            <marker date="1541504738090" expanded="true" signature="6:160" ph="..." />
+            <marker date="1541504738090" expanded="true" signature="207:2184" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="307:512" ph="/* This line creates a static version of this class called instance ... */" />
+            <marker date="1541504738090" expanded="true" signature="582:1046" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="597:867" ph="/* This assigns the variable instance to 'this' instance of the class. ... */" />
+            <marker date="1541504738090" expanded="true" signature="1082:1149" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="1263:1438" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="1543:1626" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="1653:2182" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="1841:1890" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="1979:2027" ph="{...}" />
+            <marker date="1541504738090" expanded="true" signature="2117:2176" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Random Name Picker/Assets/WordOne.cs">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
