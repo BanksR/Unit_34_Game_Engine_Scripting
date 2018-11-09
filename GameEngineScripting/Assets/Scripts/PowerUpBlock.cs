@@ -7,12 +7,12 @@ public class PowerUpBlock : MonoBehaviour
 
     //public AudioClip pickUpSFX;
 
-    public static int pickUpCount;
-    public AudioClip powerUpSound;
+    public static int PickUpCount;
+    public AudioClip PowerUpSound;
 
     private void Awake()
     {
-        pickUpCount++;
+        PickUpCount++;
 
     }
 
@@ -21,9 +21,9 @@ public class PowerUpBlock : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
 
-            AudioManager.Instance.PlayMe(powerUpSound);
+            AudioManager.Instance.PlayMe(PowerUpSound);
             gameObject.SetActive(false);
-            pickUpCount--;
+            PickUpCount--;
             //Debug.Log(pickUpCount);
 
         }

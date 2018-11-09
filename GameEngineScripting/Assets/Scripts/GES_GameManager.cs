@@ -56,7 +56,7 @@ public class GES_GameManager : MonoBehaviour
     {
 
         //This will check every frame to see how many pickup objects are in the scene
-        if (PowerUpBlock.pickUpCount == 0 && SceneManager.GetActiveScene().name != "MainMenu")
+        if (PowerUpBlock.PickUpCount == 0 && SceneManager.GetActiveScene().name != "MainMenu")
         {
             LoadNextLevel();
         }

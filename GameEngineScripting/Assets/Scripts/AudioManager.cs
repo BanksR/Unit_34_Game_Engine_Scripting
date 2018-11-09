@@ -6,19 +6,21 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    private AudioSource aud;
+    private AudioSource _aud;
 
 	// Use this for initialization
 	void Awake () 
     {
         Instance = this;
-        aud = GetComponent<AudioSource>();
+        _aud = GetComponent<AudioSource>();
 	}
 
     public void PlayMe (AudioClip PowerUpSound)
     {
-        aud.clip = PowerUpSound;
-        aud.Play();
+        _aud.clip = PowerUpSound;
+        _aud.Play();
+	    
+	    
     }
 	
 	
