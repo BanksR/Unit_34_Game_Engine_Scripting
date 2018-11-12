@@ -15,6 +15,7 @@ public class New2DController : MonoBehaviour
 
     //How far to cast the ray when detecting collisions
     public float rayLen = 1f;
+    public float wallRayLen = 1f;
 
     //Setting our private variables and component references
     private Rigidbody2D rbd;
@@ -33,9 +34,10 @@ public class New2DController : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () 
-    {
+	void FixedUpdate ()
+	{
 
+	    CastRays();
         //Player input is stored as a float either -1, 0, or 1
         hMovement = Input.GetAxisRaw("Horizontal");
 
@@ -66,8 +68,8 @@ public class New2DController : MonoBehaviour
 
         //Checking Collisions
         isGrounded = Physics2D.Raycast(transform.position, Vector3.down, rayLen, isFloor);
-        canWallJump = Physics2D.CircleCast(transform.position, rayLen, Vector2.up, rayLen, isWall);
-        anims.SetBool("WallGrip", canWallJump);
+        //canWallJump = Physics2D.CircleCast(transform.position, rayLen, Vector2.up, rayLen, isWall);
+        //anims.SetBool("WallGrip", canWallJump);
         //Character jump - checks to see if the player is on the floor or wall
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -86,7 +88,8 @@ public class New2DController : MonoBehaviour
     {
         //This function flips the character by multiplying the scale by -1
         flipped = !flipped;
-        Vector3 temp = new Vector3(transform.localScale.x * -1, 1f, 1f);
+        Vector3 temp = new Vector3(transform.localScale.x * -1, 3f, 3f);
+        wallRayLen *= -1;
         transform.localScale = temp;
     }
 
@@ -97,7 +100,7 @@ public class New2DController : MonoBehaviour
         //When no input is detected default to the idle animation
         if(hVal != 0)
         {
-            anims.SetBool("WallGrip", false);
+            //anims.SetBool("WallGrip", false);
             anims.SetFloat("Speed", Mathf.Abs(hVal));
         }
 
@@ -106,5 +109,23 @@ public class New2DController : MonoBehaviour
             anims.SetFloat("Speed", 0f);
         }
         
+    }
+
+    void CastRays()
+    {
+        RaycastHit2D sideRay = Physics2D.Raycast(transform.position, transform.right * wallRayLen, wallRayLen, isWall);
+        Debug.DrawRay(transform.position, transform.right * wallRayLen);
+
+        if (sideRay.collider != null)
+        {
+            Debug.Log(sideRay.collider.name);
+            anims.SetBool("WallGrip", true);
+            rbd.drag = 50f;
+        }
+        else
+        {
+            anims.SetBool("WallGrip", false);
+            rbd.drag = 1f;
+        }
     }
 }
