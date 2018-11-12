@@ -15,22 +15,7 @@ public class TrafficLightSystem : MonoBehaviour
         anims = GetComponent<Animator>();
 		
 	}
+    
 
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-
-        if(collision.gameObject.CompareTag("Player"))
-        {
-            anims.SetTrigger("LightSequence");
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if(collision.gameObject.CompareTag("Player"))
-        {
-
-            anims.SetTrigger("Reset");
-        }
-    }
+    
 }

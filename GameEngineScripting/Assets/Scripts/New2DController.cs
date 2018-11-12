@@ -20,7 +20,9 @@ public class New2DController : MonoBehaviour
     //Setting our private variables and component references
     private Rigidbody2D rbd;
     private Animator anims;
+    [SerializeField]
     bool isGrounded;
+    [SerializeField]
     bool canWallJump;
     bool flipped;
     private float hMovement;
@@ -37,7 +39,7 @@ public class New2DController : MonoBehaviour
 	void FixedUpdate ()
 	{
 
-	    CastRays();
+	    
         //Player input is stored as a float either -1, 0, or 1
         hMovement = Input.GetAxisRaw("Horizontal");
 
@@ -59,6 +61,7 @@ public class New2DController : MonoBehaviour
         }
 
         //This line applies the forces to the RigidBody2D to move the player
+	    CastRays();
         rbd.AddForce(new Vector3 (hMovement * playerSpeed * Time.deltaTime, 0f, 0f));
 		
 	}
@@ -67,9 +70,20 @@ public class New2DController : MonoBehaviour
     {
 
         //Checking Collisions
-        isGrounded = Physics2D.Raycast(transform.position, Vector3.down, rayLen, isFloor);
-        //canWallJump = Physics2D.CircleCast(transform.position, rayLen, Vector2.up, rayLen, isWall);
-        //anims.SetBool("WallGrip", canWallJump);
+        RaycastHit2D groundCheck = Physics2D.Raycast(transform.position, Vector3.down, rayLen, isFloor);
+        //Debug.Log(isGrounded);
+
+        if (groundCheck.collider != null)
+        {
+            isGrounded = true;
+        }
+
+        else
+        {
+            isGrounded = false;
+        }
+
+
         //Character jump - checks to see if the player is on the floor or wall
         if(Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -77,10 +91,10 @@ public class New2DController : MonoBehaviour
             rbd.AddForce(new Vector2(0f, jumpForce));
         }
 
-        else if (Input.GetKeyDown((KeyCode.Space)) && canWallJump && !isGrounded && hMovement != 0f)
+        else if (Input.GetKeyDown((KeyCode.Space)) && canWallJump && !isGrounded)
         {
             
-            rbd.AddForce(new Vector2(-hMovement * jumpForce, jumpForce * 1.5f));
+            rbd.AddForce(new Vector2(hMovement * -1f * jumpForce, jumpForce * 5f));
         }
     }
 
@@ -113,18 +127,20 @@ public class New2DController : MonoBehaviour
 
     void CastRays()
     {
-        RaycastHit2D sideRay = Physics2D.Raycast(transform.position, transform.right * wallRayLen, wallRayLen, isWall);
-        Debug.DrawRay(transform.position, transform.right * wallRayLen);
+        RaycastHit2D sideRay = Physics2D.Raycast(transform.position, Vector2.left * wallRayLen, Mathf.Abs(wallRayLen), isWall);
+        Debug.DrawRay(transform.position, Vector2.left * wallRayLen);
 
-        if (sideRay.collider != null)
+        if (sideRay.collider != null && !isGrounded)
         {
             Debug.Log(sideRay.collider.name);
             anims.SetBool("WallGrip", true);
+            canWallJump = true;
             rbd.drag = 50f;
         }
         else
         {
             anims.SetBool("WallGrip", false);
+            canWallJump = false;
             rbd.drag = 1f;
         }
     }
