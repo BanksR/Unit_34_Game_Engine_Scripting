@@ -202,7 +202,7 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Banksy/Library/Preferences/Rider2018.1/resharper-host/DecompilerCache/decompiler/3B63E63A-4A80-480D-BD2F-AACF76D58D93/23/32d64d05/Debug.cs&#10;Debug&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.CSharpInteractiveConfiguration" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
