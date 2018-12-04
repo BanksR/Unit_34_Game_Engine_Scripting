@@ -61,9 +61,11 @@
           <e p="WeaponSelecter.cs" t="Include" />
           <e p="WillICompile.cs" t="Include" />
         </e>
+        <e p="SinMover.cs" t="Include" />
         <e p="Sprites" t="Include">
           <e p="ParticleManager.cs" t="Include" />
         </e>
+        <e p="UIFader.cs" t="Include" />
       </e>
       <e p="GameEngineScripting.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />

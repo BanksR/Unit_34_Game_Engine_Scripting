@@ -19,6 +19,7 @@ public class GES_GameManager : MonoBehaviour
 
     private void Awake()
     {
+        StartCoroutine(UIFader.instance.FadeIn());
         //This assigns the variable instance to 'this' instance of the class.
         //We could do additional tests here to make sure there is only ever one instance of this
         //Class in our scene as an additional bug prevention measure
@@ -39,6 +40,7 @@ public class GES_GameManager : MonoBehaviour
     // This function can be called from any script to laod the next scene/level
     public void LoadNextLevel()
     {
+        StartCoroutine(UIFader.instance.FadeIn());
         currentScene++;
         SceneManager.LoadScene(currentScene % SceneManager.sceneCountInBuildSettings);
         inGame = true;
