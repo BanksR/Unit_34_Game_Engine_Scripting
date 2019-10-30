@@ -13,11 +13,11 @@ public class NPC : MonoBehaviour
 
     void Awake()
     {
-        dialogCanvas = GameObject.FindWithTag("Dialog").GetComponent<Canvas>();
-        NPCPhrases = dialogCanvas.GetComponentInChildren<Dialog>();
+        //dialogCanvas = GameObject.FindWithTag("Dialog").GetComponent<Canvas>();
+        //NPCPhrases = dialogCanvas.GetComponentInChildren<Dialog>();
 
-        dialogCanvas.transform.SetParent(this.transform, false);
-        dialogCanvas.transform.localPosition += offset;
+        //dialogCanvas.transform.SetParent(this.transform, false);
+        //dialogCanvas.transform.localPosition += offset;
 
 
     }

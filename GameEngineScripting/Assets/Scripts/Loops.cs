@@ -25,7 +25,8 @@ public class Loops : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
     {
-        if(Input.GetKey(KeyCode.I))
+        /*
+	    if(Input.GetKeyDown(KeyCode.I))
         {
 			for (int i = 0; i < 10; i++)
 			{
@@ -33,6 +34,9 @@ public class Loops : MonoBehaviour
 			}
 
         }
+        */
+	    
+	    
 
 
 	}

@@ -4,10 +4,16 @@
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="MovingPlatform.cs" t="Include" />
+        <e p="_Unit 34" t="Include">
+          <e p="Week 01" t="Include">
+            <e p="AnotherHelloWorld.cs" t="Include" />
+            <e p="HelloWorld.cs" t="Include" />
+            <e p="HelloWorld_2018.cs" t="Include" />
+          </e>
+        </e>
+        <e p="AmmoCounter.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AnimateAnythingPlayerController.cs" t="Include" />
-          <e p="AnotherHelloWorld.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
           <e p="BallCollisions.cs" t="Include" />
           <e p="BallController.cs" t="Include" />
@@ -24,8 +30,7 @@
           <e p="ForLoops.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GES_GameManager.cs" t="Include" />
-          <e p="HelloWorld.cs" t="Include" />
-          <e p="HelloWorld_2018.cs" t="Include" />
+          <e p="how.cs" t="Include" />
           <e p="Increment.cs" t="Include" />
           <e p="Inheritance" t="Include">
             <e p="Animal.cs" t="Include" />
@@ -37,6 +42,7 @@
           <e p="Jump.cs" t="Include" />
           <e p="Key.cs" t="Include" />
           <e p="Loops.cs" t="Include" />
+          <e p="MovingPlatform.cs" t="Include" />
           <e p="New2DController.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
           <e p="PickUp.cs" t="Include" />
@@ -47,10 +53,12 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PowerUpBlock.cs" t="Include" />
           <e p="RBDTests.cs" t="Include" />
+          <e p="SinMover.cs" t="Include" />
           <e p="SpinTrap.cs" t="Include" />
           <e p="Ticker.cs" t="Include" />
           <e p="TrafficLightSystem.cs" t="Include" />
           <e p="TransformClassTests.cs" t="Include" />
+          <e p="UIFader.cs" t="Include" />
           <e p="Weapons" t="Include">
             <e p="AK74.cs" t="Include" />
             <e p="Mp5.cs" t="Include" />
@@ -60,12 +68,12 @@
           </e>
           <e p="WeaponSelecter.cs" t="Include" />
           <e p="WillICompile.cs" t="Include" />
+          <e p="WTF.cs" t="Include" />
         </e>
-        <e p="SinMover.cs" t="Include" />
+        <e p="simpleMover.cs" t="Include" />
         <e p="Sprites" t="Include">
           <e p="ParticleManager.cs" t="Include" />
         </e>
-        <e p="UIFader.cs" t="Include" />
       </e>
       <e p="GameEngineScripting.sln" t="IncludeFlat" />
       <e p="Library" t="ExcludeRecursive" />
