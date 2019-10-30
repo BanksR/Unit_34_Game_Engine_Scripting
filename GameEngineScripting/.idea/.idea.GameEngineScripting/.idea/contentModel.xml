@@ -11,8 +11,8 @@
             <e p="HelloWorld_2018.cs" t="Include" />
           </e>
         </e>
-        <e p="AmmoCounter.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="AmmoCounter.cs" t="Include" />
           <e p="AnimateAnythingPlayerController.cs" t="Include" />
           <e p="AudioManager.cs" t="Include" />
           <e p="BallCollisions.cs" t="Include" />
@@ -53,6 +53,7 @@
           <e p="PlayerMovement.cs" t="Include" />
           <e p="PowerUpBlock.cs" t="Include" />
           <e p="RBDTests.cs" t="Include" />
+          <e p="simpleMover.cs" t="Include" />
           <e p="SinMover.cs" t="Include" />
           <e p="SpinTrap.cs" t="Include" />
           <e p="Ticker.cs" t="Include" />
@@ -70,7 +71,6 @@
           <e p="WillICompile.cs" t="Include" />
           <e p="WTF.cs" t="Include" />
         </e>
-        <e p="simpleMover.cs" t="Include" />
         <e p="Sprites" t="Include">
           <e p="ParticleManager.cs" t="Include" />
         </e>
