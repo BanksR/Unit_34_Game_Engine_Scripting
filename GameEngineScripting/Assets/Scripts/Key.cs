@@ -19,7 +19,7 @@ public class Key : PickUp
     }
 
 	
-    public override void OnTriggerEnter2D(Collider2D other)
+    public void OnTriggerEnter2D(Collider2D other)
     {
         ParticleManager.Instance.PickUp(transform);
         inv.AddKey(this);

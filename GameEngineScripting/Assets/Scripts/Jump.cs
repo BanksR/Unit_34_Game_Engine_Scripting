@@ -60,7 +60,7 @@ public class Jump : MonoBehaviour
 	//This helper function draws out our collision radius
 	private void OnDrawGizmos()
 	{
-		Gizmos.DrawWireSphere(transform.position, collisionRadius);
+		//Gizmos.DrawWireSphere(transform.position, collisionRadius);
 	}
 
 	//This function resets the ball back to launchPos.position

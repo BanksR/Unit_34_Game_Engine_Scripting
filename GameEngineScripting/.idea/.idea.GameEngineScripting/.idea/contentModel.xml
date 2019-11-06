@@ -45,6 +45,7 @@
           <e p="MovingPlatform.cs" t="Include" />
           <e p="New2DController.cs" t="Include" />
           <e p="NPC.cs" t="Include" />
+          <e p="ParticleManager.cs" t="Include" />
           <e p="PickUp.cs" t="Include" />
           <e p="PlayerAudio.cs" t="Include" />
           <e p="PlayerController.cs" t="Include" />
@@ -70,9 +71,6 @@
           <e p="WeaponSelecter.cs" t="Include" />
           <e p="WillICompile.cs" t="Include" />
           <e p="WTF.cs" t="Include" />
-        </e>
-        <e p="Sprites" t="Include">
-          <e p="ParticleManager.cs" t="Include" />
         </e>
       </e>
       <e p="GameEngineScripting.sln" t="IncludeFlat" />
