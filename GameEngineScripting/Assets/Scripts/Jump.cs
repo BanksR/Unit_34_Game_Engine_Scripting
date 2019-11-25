@@ -30,6 +30,7 @@ public class Jump : MonoBehaviour
 	// FixedUpdate is locked to the physics engine time interval and can not vary like Update()
 	void FixedUpdate ()
 	{
+		//bool isGrounded = Physics2D.Raycast(transform.position, Vector2.down, collisionRadius, groundLayer);
 		bool isGrounded = Physics2D.Raycast(transform.position, Vector2.down, collisionRadius, groundLayer);
 		
 		
@@ -61,6 +62,8 @@ public class Jump : MonoBehaviour
 	private void OnDrawGizmos()
 	{
 		//Gizmos.DrawWireSphere(transform.position, collisionRadius);
+		//Gizmos.DrawRay(transform.position, Vector2.down * collisionRadius);
+		//Gizmos.DrawLine(transform.position, Vector3.down * collisionRadius);
 	}
 
 	//This function resets the ball back to launchPos.position

@@ -445,11 +445,11 @@ Prefab:
         type: 2}
       propertyPath: m_Material
       value: 
-      objectReference: {fileID: 6200000, guid: 2f144765c2781406db7fee741871922f, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 50640140228409374, guid: e98ef451fce0249d1aac4a6eedd10d8c,
         type: 2}
       propertyPath: m_GravityScale
-      value: -1
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e98ef451fce0249d1aac4a6eedd10d8c, type: 2}
@@ -654,10 +654,10 @@ GameObject:
   m_Layer: 0
   m_Name: LaunchPos
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1272327340
 Transform:
   m_ObjectHideFlags: 0
@@ -665,7 +665,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1272327339}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.11, y: 2.05, z: 0}
+  m_LocalPosition: {x: -2.32, y: -2.55, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
