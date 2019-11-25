@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7e885feb-8ab1-4708-b19f-971518080426" name="Default" comment="what is this?">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameEngineScripting/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameEngineScripting/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.GameEngineScripting/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GameEngineScripting/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Player.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Player.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/NPC_01.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/NPC_01.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ParticlePlayerDeath.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ParticlePlayerDeath.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Colliders.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Colliders.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Jump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Jump.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NPC.cs" afterDir="false" />
+    <list default="true" id="7e885feb-8ab1-4708-b19f-971518080426" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/NewPowerUp.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/NewPowerUp.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PickUp.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PickUp.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TheSimplestAI.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scenes/TheSimplestAI.unity.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,11 +112,11 @@
             <state relative-caret-position="165">
               <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
               <folding>
-                <marker date="1573656448241" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573656448241" expanded="true" signature="120:374" ph="{...}" />
-                <marker date="1573656448241" expanded="true" signature="174:372" ph="{...}" />
-                <marker date="1573656448241" expanded="true" signature="223:369" ph="{...}" />
-                <marker date="1573656448241" expanded="true" signature="311:365" ph="/* Play a sfx ... */" />
+                <marker date="1574695893055" expanded="false" signature="6:78" ph="..." />
+                <marker date="1574695893055" expanded="true" signature="120:374" ph="{...}" />
+                <marker date="1574695893055" expanded="true" signature="174:372" ph="{...}" />
+                <marker date="1574695893055" expanded="true" signature="223:369" ph="{...}" />
+                <marker date="1574695893055" expanded="true" signature="311:365" ph="/* Play a sfx ... */" />
               </folding>
             </state>
           </provider>
@@ -127,7 +125,7 @@
       <file leaf-file-name="New2DController.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/New2DController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1575">
+            <state relative-caret-position="339">
               <caret line="107" column="5" selection-start-line="100" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
               <folding>
                 <marker date="1542032215151" expanded="false" signature="6:78" ph="..." />
@@ -181,8 +179,8 @@
       <file leaf-file-name="NPC.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+            <state relative-caret-position="215">
+              <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <marker date="1574693745859" expanded="true" signature="6:78" ph="..." />
                 <marker date="1574693745859" expanded="true" signature="113:1892" ph="{...}" />
@@ -202,6 +200,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -376,7 +375,7 @@
       <workItem from="1574260109068" duration="1463000" />
       <workItem from="1574676801490" duration="321000" />
       <workItem from="1574692036461" duration="1008000" />
-      <workItem from="1574693114916" duration="707000" />
+      <workItem from="1574693114916" duration="847000" />
     </task>
     <task id="LOCAL-00001" summary="what is this?">
       <created>1543935561744</created>
@@ -385,11 +384,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543935561744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added a simple patrolling NPC AI">
+      <created>1574695858807</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574695858808</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51087000" />
+    <option name="totallyTimeSpent" value="51227000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -409,7 +415,7 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Unit Tests" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="7" visible="true" weight="0.32969698" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.043633763" />
@@ -439,7 +445,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="what is this?" />
-    <option name="LAST_COMMIT_MESSAGE" value="what is this?" />
+    <MESSAGE value="Added a simple patrolling NPC AI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a simple patrolling NPC AI" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerInventory.cs">
@@ -644,11 +651,11 @@
         <state relative-caret-position="165">
           <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
           <folding>
-            <marker date="1573656448241" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573656448241" expanded="true" signature="120:374" ph="{...}" />
-            <marker date="1573656448241" expanded="true" signature="174:372" ph="{...}" />
-            <marker date="1573656448241" expanded="true" signature="223:369" ph="{...}" />
-            <marker date="1573656448241" expanded="true" signature="311:365" ph="/* Play a sfx ... */" />
+            <marker date="1574695893055" expanded="false" signature="6:78" ph="..." />
+            <marker date="1574695893055" expanded="true" signature="120:374" ph="{...}" />
+            <marker date="1574695893055" expanded="true" signature="174:372" ph="{...}" />
+            <marker date="1574695893055" expanded="true" signature="223:369" ph="{...}" />
+            <marker date="1574695893055" expanded="true" signature="311:365" ph="/* Play a sfx ... */" />
           </folding>
         </state>
       </provider>
@@ -687,7 +694,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/New2DController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1575">
+        <state relative-caret-position="339">
           <caret line="107" column="5" selection-start-line="100" selection-start-column="4" selection-end-line="107" selection-end-column="5" />
           <folding>
             <marker date="1542032215151" expanded="false" signature="6:78" ph="..." />
@@ -717,8 +724,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/NPC.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="59" column="8" selection-start-line="59" selection-start-column="8" selection-end-line="59" selection-end-column="8" />
+        <state relative-caret-position="215">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
           <folding>
             <marker date="1574693745859" expanded="true" signature="6:78" ph="..." />
             <marker date="1574693745859" expanded="true" signature="113:1892" ph="{...}" />
