@@ -25,15 +25,8 @@ public class NPC : MonoBehaviour
 
     void Awake()
     {
-        //dialogCanvas = GameObject.FindWithTag("Dialog").GetComponent<Canvas>();
-        //NPCPhrases = dialogCanvas.GetComponentInChildren<Dialog>();
-
-        //dialogCanvas.transform.SetParent(this.transform, false);
-        //dialogCanvas.transform.localPosition += offset;
-
         _anim = GetComponent<Animator>();
         _rbd = GetComponent<Rigidbody2D>();
-
 
     }
 

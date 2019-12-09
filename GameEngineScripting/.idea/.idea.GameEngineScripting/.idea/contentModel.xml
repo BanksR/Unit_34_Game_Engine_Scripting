@@ -11,6 +11,7 @@
             <e p="HelloWorld_2018.cs" t="Include" />
           </e>
         </e>
+        <e p="CameraFollow.cs" t="Include" />
         <e p="NewPowerUp.cs" t="Include" />
         <e p="Scripts" t="Include">
           <e p="AmmoCounter.cs" t="Include" />

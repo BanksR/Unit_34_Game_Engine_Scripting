@@ -24,7 +24,7 @@ public class New2DController : MonoBehaviour
     bool isGrounded;
     [SerializeField]
     bool canWallJump;
-    bool flipped;
+    public bool flipped;
     private float hMovement;
 
 	// Use this for initialization
@@ -102,7 +102,7 @@ public class New2DController : MonoBehaviour
     {
         //This function flips the character by multiplying the scale by -1
         flipped = !flipped;
-        Vector3 temp = new Vector3(transform.localScale.x * -1, 3f, 3f);
+        Vector3 temp = new Vector3(transform.localScale.x * -1, 2f, 2f);
         wallRayLen *= -1;
         transform.localScale = temp;
     }
